@@ -38,7 +38,7 @@ const Services = () => {
                 <ServicesH2>Premium Benefits</ServicesH2>
                 <ServicesP>
                     Unlock our special membership card that 
-                    returns 5% cash back
+                    returns 5% Cash back
                 </ServicesP>
                 </ServicesCard>
             </ServicesWrapper>
