@@ -4,11 +4,12 @@ import { Link as LinkS} from 'react-scroll';
 
 
 export const Nav = styled.nav`
-    background: #000;
+    background: ${({ scrollNav }) => (scrollNav ? '#000' :
+    'transparent'   )};
     height: 80px;
     margin-top: -80px;
     display: flex;
-    justify-conten: center;
+    justify-content: center;
     align-items: center;
     font-size: 1rem;
     position: sticky;
@@ -52,7 +53,7 @@ export const MobileIcon = styled.div`
       right: 0;
       transform: translate(-100%, 60%);
       font-size: 1.8rem;
-      cursor: pointer;
+      cursor: pointer;  
       color: #fff;
   }
 `;
@@ -91,8 +92,9 @@ display: flex;
 align-items: center;
 
 
- @media screen and (max width: 768px) {
-     display: none;
+@media screen and (max-width: 768px) {
+    display: none;
+
  }
 `;
 
@@ -102,7 +104,7 @@ background: #01bf71;
 white-space: nowrap;
 padding: 10px 22px;
 color: #010606;
-font-zise: 16px;
+font-size: 16px;
 outline: none;
 border: none;
 cursor: pointer;

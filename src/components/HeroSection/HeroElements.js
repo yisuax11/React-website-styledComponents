@@ -86,7 +86,7 @@ font-size: 24px;
 text-align: center;
 width: 400%;
 text-shadow: 1px 1px #666, 2px 2px #86D6D3, 
-3px 3px #666, 4px 4px #86D6D3;
+3px 3px #666, 4px 4px #86D6D3; 
 
 
 @media screen and (max-width: 760px) {
